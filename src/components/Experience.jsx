@@ -7,6 +7,9 @@ import nextjs from '../assets/nextjs.png'
 import graphql from '../assets/graphql.png'
 import github from '../assets/github.png'
 import tailwind from '../assets/tailwind.png'
+import hardhat from '../assets/hardhat.svg'
+import sql from '../assets/sql.png'
+import mongodb from '../assets/mongodb.png'
 
 const Experience = () => {
 
@@ -59,11 +62,29 @@ const Experience = () => {
       title: 'GitHub',
       style: 'shadow-gray-400'
     },
+    {
+      id: 9,
+      src: hardhat,
+      title: 'Hardhat',
+      style: 'shadow-yellow-300'
+    },
+    {
+      id: 10,
+      src: sql,
+      title: 'SQL',
+      style: 'shadow-blue-700'
+    },
+    {
+      id: 11,
+      src: mongodb,
+      title: 'MongoDB',
+      style: 'shadow-green-600'
+    },
   ]
 
   return (
     <div
-      name="experience"
+      name="experience" id="experience"
       className="bg-gradient-to-b from-gray-800 to-black w-full h-screen"
     >
       <div className="max-w-screen-lg mx-auto p-4 flex flex-col justify-center w-full h-full text-white">
@@ -71,7 +92,7 @@ const Experience = () => {
           <p className="text-4xl font-bold border-b-4 border-gray-500 p-2 inline">
             Experience
           </p>
-          <p className="py-6">These are the technologies I've worked with</p>
+          <p className="py-6">These are the technologies that I've worked with</p>
         </div>
 
         
