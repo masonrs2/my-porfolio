@@ -5,6 +5,7 @@ import defiLottery from '../assets/defi-lottery.jpeg'
 import bank from '../assets/modern-bank.jpeg'
 import zillow from '../assets/zillow.png'
 import aave from '../assets/aave-flashloan.png'
+import netflix from '../assets/netflix-clone.png'
 
 
 const Portfolio = () => {
@@ -12,9 +13,9 @@ const Portfolio = () => {
     const portfolios = [
         {
             id: 1,
-            src: defiLottery,
-            site: "https://late-sunset-9799.on.fleek.co/",
-            code: "https://github.com/masonrs2/frontend-raffle-dApp",
+            src: netflix,
+            site: "https://netflix-clone-49185.web.app/",
+            code: "https://github.com/masonrs2/netflix-clone",
         },
         {
             id: 2,
@@ -30,22 +31,21 @@ const Portfolio = () => {
         },
         {
             id: 4,
-            src: zillow,
-            site: "https://lingering-glade-1937.on.fleek.co/",
-            code: "https://github.com/masonrs2/real-estate-dapp",
-            
+            src: defiLottery,
+            site: "https://late-sunset-9799.on.fleek.co/",
+            code: "https://github.com/masonrs2/frontend-raffle-dApp",
         },
         {
             id: 5,
-            src: aave,
-            site: "https://github.com/masonrs2/collateralized-borrow-aave",
-            code: "https://github.com/masonrs2/collateralized-borrow-aave",
+            src: zillow,
+            site: "https://lingering-glade-1937.on.fleek.co/",
+            code: "https://github.com/masonrs2/real-estate-dapp",
         },
         {
             id: 6,
-            src: reactWeather,
+            src: aave,
             site: "https://lingering-glade-1937.on.fleek.co/",
-            code: "https://github.com/masonrs2/modern-bank-app",
+            code: "https://github.com/masonrs2/flashloan-hh",
         }
     ]
 
@@ -64,20 +64,22 @@ const Portfolio = () => {
                 portfolios.map(({id, src, site, code}) => (
                     <div key={id} className="shadow-md shadow-gray-600 rounded-lg">
                         <div className="">
-                            <img src={src} alt=""  className="rounded-md duration-200 hover:scale-105 w-[310px] h-[175px]" />
+                            <a href={site} rel="noreferrer" target="_blank">
+                                <img src={src} alt=""  className="rounded-md duration-200 hover:scale-105 w-[310px] h-[175px]" />
+                            </a>
                         </div>
-                        <div className="flex items-center justify-center ">
-                            <button href="" target="_blank" className="w-1/2 px-6 py-3 m-4 duration-200 hover:scale-105">
-                                <a href={site} rel="noreferrer" target="_blank" >
+                        <div className="flex items-center justify-center">
+                            <a href={site} rel="noreferrer" target="_blank" className="w-1/2 px-6 py-3 m-4 duration-200 hover:scale-105" >
                                     Site
-                                </a>
-                            </button>
-                            
-                            <button className="w-1/2 px-6 py-3 m-4 duration-200 hover:scale-105">
-                                <a href={code} rel="noreferrer" target="_blank">
+                                <button href="" target="_blank" >
+                                </button>
+                            </a>
+
+                            <a href={code} rel="noreferrer" target="_blank" className="w-1/2 px-6 py-3 m-4 duration-200 hover:scale-105">
                                     Code 
-                                </a>
-                            </button>
+                                <button >   
+                                </button>
+                            </a>
                         </div>
                     </div>
                 ))      
