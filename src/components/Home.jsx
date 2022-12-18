@@ -12,7 +12,7 @@ const Home = () => {
             </h2>
             <p className="text-gray-500 py-4 max-w-md">
                 I have aspirations of obtaining employment as a Full-Stack developer/engineer. Simultaneously I have a very vested interest in blockchain technology and creating decentralized applications that increase trust between the user and software that they manage/use.
-          </p>
+             </p>
 
                 <div>
                     <a href="#portfolio" > 

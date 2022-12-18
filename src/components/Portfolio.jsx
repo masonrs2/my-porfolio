@@ -2,9 +2,9 @@ import React from 'react'
 import reactWeather from '../assets/portfolio/reactWeather.jpg'
 import memeGenerator from '../assets/meme-generator.jpeg'
 import defiLottery from '../assets/defi-lottery.jpeg'
-import bank from '../assets/modern-bank.jpeg'
-import zillow from '../assets/zillow.png'
-import aave from '../assets/aave-flashloan.png'
+import bank from '../assets/bank.jpeg'
+import millow from '../assets/millow.jpeg'
+import reactWeb from '../assets/reactWeb.png'
 import netflix from '../assets/netflix-clone.png'
 
 
@@ -31,22 +31,22 @@ const Portfolio = () => {
         },
         {
             id: 4,
-            src: defiLottery,
-            site: "https://late-sunset-9799.on.fleek.co/",
-            code: "https://github.com/masonrs2/frontend-raffle-dApp",
+            src: reactWeb,
+            site: "https://ancient-shadow-1700.on.fleek.co/",
+            code: "https://github.com/masonrs2/responsive-modern-react-site",
         },
         {
             id: 5,
-            src: zillow,
-            site: "https://lingering-glade-1937.on.fleek.co/",
+            src: millow,
+            site: "https://sparkling-hall-4752.on.fleek.co/",
             code: "https://github.com/masonrs2/real-estate-dapp",
         },
         {
             id: 6,
-            src: aave,
-            site: "https://lingering-glade-1937.on.fleek.co/",
-            code: "https://github.com/masonrs2/flashloan-hh",
-        }
+            src: defiLottery,
+            site: "https://late-sunset-9799.on.fleek.co/",
+            code: "https://github.com/masonrs2/frontend-raffle-dApp",
+        },
     ]
 
   return (
