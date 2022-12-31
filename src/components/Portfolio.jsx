@@ -6,6 +6,7 @@ import bank from '../assets/bank.jpeg'
 import millow from '../assets/millow.jpeg'
 import reactWeb from '../assets/reactWeb.png'
 import netflix from '../assets/netflix-clone.png'
+import coinSearch from '../assets/coinSearch.png'
 
 
 const Portfolio = () => {
@@ -13,15 +14,15 @@ const Portfolio = () => {
     const portfolios = [
         {
             id: 1,
-            src: netflix,
-            site: "https://netflix-clone-49185.web.app/",
-            code: "https://github.com/masonrs2/netflix-clone",
+            src: coinSearch,
+            site: "https://coin-search-v2-firebase.vercel.app/",
+            code: "https://github.com/masonrs2/coin-search-v2-firebase",
         },
         {
             id: 2,
-            src: bank,
-            site: "https://lingering-glade-1937.on.fleek.co/",
-            code: "https://github.com/masonrs2/modern-bank-app",
+            src: netflix,
+            site: "https://netflix-clone-49185.web.app/",
+            code: "https://github.com/masonrs2/netflix-clone",
         },
         {
             id: 3,
@@ -31,9 +32,9 @@ const Portfolio = () => {
         },
         {
             id: 4,
-            src: reactWeb,
-            site: "https://ancient-shadow-1700.on.fleek.co/",
-            code: "https://github.com/masonrs2/responsive-modern-react-site",
+            src: bank,
+            site: "https://lingering-glade-1937.on.fleek.co/",
+            code: "https://github.com/masonrs2/modern-bank-app",
         },
         {
             id: 5,
@@ -43,9 +44,9 @@ const Portfolio = () => {
         },
         {
             id: 6,
-            src: defiLottery,
-            site: "https://late-sunset-9799.on.fleek.co/",
-            code: "https://github.com/masonrs2/frontend-raffle-dApp",
+            src: reactWeb,
+            site: "https://ancient-shadow-1700.on.fleek.co/",
+            code: "https://github.com/masonrs2/responsive-modern-react-site",
         },
     ]
 
@@ -65,7 +66,7 @@ const Portfolio = () => {
                     <div key={id} className="shadow-md shadow-gray-600 rounded-lg">
                         <div className="">
                             <a href={site} rel="noreferrer" target="_blank">
-                                <img src={src} alt=""  className="rounded-md duration-200 hover:scale-105 w-[310px] h-[175px]" />
+                                <img src={src} alt=""  className="rounded-md duration-200 hover:scale-105 w-[310px] h-[175px] " />
                             </a>
                         </div>
                         <div className="flex items-center justify-center">
@@ -84,8 +85,7 @@ const Portfolio = () => {
                     </div>
                 ))      
         }
-                
-                
+
             </div>
         </div>
     </div>
