@@ -1,12 +1,10 @@
 import React from 'react'
-import reactWeather from '../assets/portfolio/reactWeather.jpg'
 import memeGenerator from '../assets/meme-generator.jpeg'
-import defiLottery from '../assets/defi-lottery.jpeg'
 import bank from '../assets/bank.jpeg'
-import millow from '../assets/millow.jpeg'
 import reactWeb from '../assets/reactWeb.png'
 import netflix from '../assets/netflix-clone.png'
 import coinSearch from '../assets/coinSearch.png'
+import news from '../assets/news.jpeg'
 
 
 const Portfolio = () => {
@@ -20,15 +18,15 @@ const Portfolio = () => {
         },
         {
             id: 2,
-            src: netflix,
-            site: "https://netflix-clone-49185.web.app/",
-            code: "https://github.com/masonrs2/netflix-clone",
+            src: news,
+            site: "https://news-api-beige.vercel.app/",
+            code: "https://github.com/masonrs2/bloomberg-redesign-nextjs13",
         },
         {
             id: 3,
-            src: memeGenerator,
-            site: "https://divine-cake-2903.on.fleek.co/",
-            code: "https://github.com/masonrs2/random-meme-generator",
+            src: netflix,
+            site: "https://netflix-clone-49185.web.app/",
+            code: "https://github.com/masonrs2/netflix-clone",
         },
         {
             id: 4,
@@ -38,9 +36,9 @@ const Portfolio = () => {
         },
         {
             id: 5,
-            src: millow,
-            site: "https://sparkling-hall-4752.on.fleek.co/",
-            code: "https://github.com/masonrs2/real-estate-dapp",
+            src: memeGenerator,
+            site: "https://divine-cake-2903.on.fleek.co/",
+            code: "https://github.com/masonrs2/random-meme-generator",
         },
         {
             id: 6,
