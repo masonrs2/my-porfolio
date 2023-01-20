@@ -1,10 +1,10 @@
 import React from 'react'
-import memeGenerator from '../assets/meme-generator.jpeg'
 import bank from '../assets/bank.jpeg'
 import reactWeb from '../assets/reactWeb.png'
 import netflix from '../assets/netflix-clone.png'
 import coinSearch from '../assets/coinSearch.png'
 import news from '../assets/news.jpeg'
+import blog from '../assets/blog.jpeg'
 
 
 const Portfolio = () => {
@@ -24,21 +24,22 @@ const Portfolio = () => {
         },
         {
             id: 3,
+            src: blog,
+            site: "https://blog-supabase-nextjs13.vercel.app/",
+            code: "https://github.com/masonrs2/blog-supabase-nextjs13",
+        },
+        {
+            id: 4,
             src: netflix,
             site: "https://netflix-clone-49185.web.app/",
             code: "https://github.com/masonrs2/netflix-clone",
         },
+
         {
-            id: 4,
+            id: 5,
             src: bank,
             site: "https://lingering-glade-1937.on.fleek.co/",
             code: "https://github.com/masonrs2/modern-bank-app",
-        },
-        {
-            id: 5,
-            src: memeGenerator,
-            site: "https://divine-cake-2903.on.fleek.co/",
-            code: "https://github.com/masonrs2/random-meme-generator",
         },
         {
             id: 6,

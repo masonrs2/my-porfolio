@@ -10,6 +10,7 @@ import tailwind from '../assets/tailwind.png'
 import hardhat from '../assets/hardhat.svg'
 import sql from '../assets/sql.png'
 import mongodb from '../assets/mongodb.png'
+import supabase from '../assets/supabase.png'
 
 const Experience = () => {
 
@@ -70,15 +71,22 @@ const Experience = () => {
     },
     {
       id: 10,
+      src: mongodb,
+      title: 'MongoDB',
+      style: 'shadow-green-600'
+    },
+    {
+      id: 11,
       src: sql,
       title: 'SQL',
       style: 'shadow-blue-700'
     },
+    
     {
       id: 11,
-      src: mongodb,
-      title: 'MongoDB',
-      style: 'shadow-green-600'
+      src: supabase,
+      title: 'Supabase',
+      style: 'shadow-green-300'
     },
   ]
 
