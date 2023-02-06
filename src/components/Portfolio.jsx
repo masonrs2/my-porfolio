@@ -4,10 +4,13 @@ import reactWeb from '../assets/reactWeb.png'
 import netflix from '../assets/netflix-clone.png'
 import coinSearch from '../assets/coinSearch.png'
 import news from '../assets/news.jpeg'
+import businessCard from '../assets/business-card.jpeg'
 import blog from '../assets/blog.jpeg'
 
 
 const Portfolio = () => {
+
+    //https://business-card-ecru.vercel.app/
 
     const portfolios = [
         {
@@ -18,35 +21,36 @@ const Portfolio = () => {
         },
         {
             id: 2,
+            src: businessCard,
+            site: "https://business-card-ecru.vercel.app/",
+            code: "https://github.com/masonrs2/business-card",
+        },
+        {
+            id: 3,
             src: news,
             site: "https://news-api-beige.vercel.app/",
             code: "https://github.com/masonrs2/bloomberg-redesign-nextjs13",
         },
         {
-            id: 3,
+            id: 4,
             src: blog,
             site: "https://blog-supabase-nextjs13.vercel.app/",
             code: "https://github.com/masonrs2/blog-supabase-nextjs13",
         },
         {
-            id: 4,
+            id: 5,
             src: netflix,
             site: "https://netflix-clone-49185.web.app/",
             code: "https://github.com/masonrs2/netflix-clone",
         },
 
         {
-            id: 5,
+            id: 6,
             src: bank,
             site: "https://lingering-glade-1937.on.fleek.co/",
             code: "https://github.com/masonrs2/modern-bank-app",
         },
-        {
-            id: 6,
-            src: reactWeb,
-            site: "https://ancient-shadow-1700.on.fleek.co/",
-            code: "https://github.com/masonrs2/responsive-modern-react-site",
-        },
+
     ]
 
   return (
