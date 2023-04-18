@@ -2,6 +2,7 @@ import React from 'react'
 import bank from '../assets/bank.jpeg'
 import reactWeb from '../assets/reactWeb.png'
 import netflix from '../assets/netflix-clone.png'
+import moviedb from '../assets/moviedb.jpeg'
 import coinSearch from '../assets/coinSearch.png'
 import news from '../assets/news.jpeg'
 import businessCard from '../assets/business-card.jpeg'
@@ -21,28 +22,35 @@ const Portfolio = () => {
         },
         {
             id: 2,
+            src: moviedb,
+            site: "https://moviedb-app-one.vercel.app/",
+            code: "https://github.com/masonrs2/moviedb-app-nextjs13",
+        },
+        {
+            id: 3,
             src: businessCard,
             site: "https://business-card-ecru.vercel.app/",
             code: "https://github.com/masonrs2/business-card",
         },
         {
-            id: 3,
+            id: 4,
             src: news,
             site: "https://news-api-beige.vercel.app/",
             code: "https://github.com/masonrs2/bloomberg-redesign-nextjs13",
         },
         {
-            id: 4,
+            id: 5,
             src: blog,
             site: "https://blog-supabase-nextjs13.vercel.app/",
             code: "https://github.com/masonrs2/blog-supabase-nextjs13",
         },
-        {
-            id: 5,
-            src: netflix,
-            site: "https://netflix-clone-49185.web.app/",
-            code: "https://github.com/masonrs2/netflix-clone",
-        },
+        // {
+        //     id: 5,
+        //     src: netflix,
+        //     site: "https://netflix-clone-49185.web.app/",
+        //     code: "https://github.com/masonrs2/netflix-clone",
+        // },
+        
 
         {
             id: 6,
