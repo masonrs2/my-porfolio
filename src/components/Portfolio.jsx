@@ -1,54 +1,9 @@
 import React from 'react'
-import moviedb from '../assets/moviedb.jpeg'
-import coinSearch from '../assets/coinSearch.png'
-import news from '../assets/news.jpeg'
-import businessCard from '../assets/business-card.jpeg'
-import ecommerce from '../assets/ecommerce.jpeg'
-import nbaStats from '../assets/nbaStats.png'
+import { portfolios } from '../constants/constants'
 
 const Portfolio = () => {
 
   //https://business-card-ecru.vercel.app/
-
-  const portfolios = [
-    {
-      id: 1,
-      src: nbaStats,
-      site: "https://nba-stats-frontend.vercel.app/",
-      code: "https://github.com/masonrs2/RESTful-Django-React-NBA-Stats-App",
-    },
-    {
-      id: 2,
-      src: ecommerce,
-      site: "https://fullstack-ecommerce-app-nextjs.vercel.app/Market",
-      code: "https://github.com/masonrs2/fullstack-ecommerce-app-nextjs",
-    },
-    {
-      id: 3,
-      src: coinSearch,
-      site: "https://coin-search-v2-firebase.vercel.app/",
-      code: "https://github.com/masonrs2/coin-search-v2-firebase",
-    },
-    {
-      id: 4,
-      src: moviedb,
-      site: "https://moviedb-app-one.vercel.app/",
-      code: "https://github.com/masonrs2/moviedb-app-nextjs13",
-    },
-    {
-      id: 5,
-      src: businessCard,
-      site: "https://business-card-ecru.vercel.app/",
-      code: "https://github.com/masonrs2/business-card",
-    },
-    {
-      id: 6,
-      src: news,
-      site: "https://news-api-beige.vercel.app/",
-      code: "https://github.com/masonrs2/bloomberg-redesign-nextjs13",
-    },
-
-  ]
 
   return (
     <div id="portfolio" name="portfolio" className="bg-gradient-to-b from-black to-gray-800 w-full text-white md:h-screen">
@@ -64,9 +19,9 @@ const Portfolio = () => {
           {
             portfolios.map(({ id, src, site, code }) => (
               <div key={id} className="shadow-md shadow-gray-600 rounded-lg">
-                <div className="">
+                <div className="h-48 w-full overflow-hidden">
                   <a href={site} rel="noreferrer" target="_blank">
-                    <img src={src} alt="" className="rounded-md duration-200 hover:scale-105 w-[310px] h-[175px] " />
+                    <img src={src} alt="" className="rounded-md duration-200 hover:scale-105 object-cover w-full h-full" />
                   </a>
                 </div>
                 <div className="flex items-center justify-center">
